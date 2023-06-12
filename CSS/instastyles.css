@@ -91,16 +91,14 @@
 
 }
 .sub1{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    margin-left: 133px;
-    margin-right:133px;
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid black;
     width: 400px;
     border-radius: 2px;
     margin-top: 20px;
-
-
 }
 .signup{
     display:block;
