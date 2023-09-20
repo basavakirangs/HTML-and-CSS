@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html> 
+<head>  
+    <title>Form Elements</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+        <h3>Welcome User......!! Please fillout the given form</h3> <hr>
+        <h4>Text Box</h4>
+        
+            <label>Name:</label>
+            <input type="text" title="name is requried" placeholder="Enter your name" pattern="[a-zA-Z]{3,15}" required><br><br>
+            
+            <label>Age:</label>
+            <input type="number"min="18" max="29" required><br><br>
+            <p>1. Minmum age should be 18.</p>
+            <p>2. Maimum age should be 29.</p>
+            
+            <h4>Phone Number</h4>
+            <label>Phone Number:</label>
+            <input type="text" pattern="^[7-9]{1}[0-9]{9}$" required title="Phone number should start from 7-9 ">
+            
+            
+            <h4>Email Box:</h4>
+            <label>Email:</label>
+            <input type="email" pattern="[a-zA-Z0-9#%$]+@[a-zA-Z]+.[a-zA-z]{3}" required>
+            
+            <p>Here, we can select multiple options</p>
+            
+            <h4>Select box / drop down menu:</h4>
+            <label>Select city:</label>
+            <select>
+            <option>Select</option>
+            <option>Bangalore</option>
+            <option>Mysore</option>
+            <option>Bellary</option>
+            <option>Mumbai</option>
+            </select>
+            
+            <h4>Radio button:</h4>
+            <label>Gender:</label>
+            <input type="Radio" name="Gender">Male
+            <input type="Radio" name="Gender">Female
+            <input type="Radio" name="Gender">other
+            
+            <h4>Upload Button:</h4>
+            <label>Choose your file:</label>
+            <input type="file">
+            
+            <h4>Textarea</h4>
+            <textarea> Write Your Comments here......!</textarea>
+            
+            <h4>Calendra:</h4>
+            <label>Select Your DOB:</label>
+            <input type="date" min="1990-01-01" max="2023-12-31">
+            
+            
+            <h4>Reset Button</h4>
+            <label>Reset Button</label>
+            <input type="reset">
+            
+            <h4>Color:</h4>
+            <label>Color Palet:</label>
+            <input type="color">
+            
+            <h4>Range Button</h4>
+            <label>Range Button:</label>
+            <input type="range">
+            
+            <h4>Search Box</h4>
+            <label>Search Box:</label>
+            <input type="search">
+            
+            <h4>Password</h4>
+            <label>Password:</label>
+            <input type="password" placeholder="Password" required pattern="[a-zA-Z0-9!@#$%^&*]"
+            
+            
+            
+            <br><br>
+            <input type="submit">
+                </fieldset>
+            
+        
+        </form>
+    
+    </body>
+</html>
